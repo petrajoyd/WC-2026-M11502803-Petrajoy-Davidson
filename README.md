@@ -14,7 +14,8 @@
     - **Deadline : 12:00, Sep. 28**
     - Goal:
 In this lab, you will use Wireshark to analyze how a UE establishes an RRC connection with an OAI gNB and then registers with the 5G Core.
-    - delivery: [**file link here**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab1_Assignment/lab1_tasks.md).
+    - delivery [**file link for lab 0 assignment here**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab0_Assignment/lab0_study-notes.md)
+    - delivery: [**file link for lab 1 assignment here**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab1_Assignment/lab1_tasks.md).
     -  [ ] Peer review : [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLSeY8uVnBUwJ6l6CwQ6arx3JHthTJupHBeA2WwyD-EUIYqHHrg/viewform?usp=publish-editor) (DL: 23:59, Sep. 30)
       
 
