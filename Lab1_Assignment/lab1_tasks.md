@@ -18,6 +18,11 @@ Submit:
 ![alt text](image-2.png)
 
 ## 5. Identify the basic of 5G SA Architecture
+#### Use:
+
+```text
+Statistics → Endpoints → IPv4
+```
 
 ![alt text](image-3.png)
 
@@ -75,7 +80,7 @@ flowchart LR
 - [x] Correctly identify the five components and their IP addresses. 
 - [x] Correctly explain N1, N2, and N3. 
 
-## Analyzed the RRC Connection Establishment
+## 6. Analyzed the RRC Connection Establishment
 
 Find the following messages in order:
 
