@@ -28,7 +28,9 @@ In this lab,you will compare three 5-second UDP iperf3 tests. You will learn how
     -  [ ] Peer review : [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLScz-Kt_9ArkXOl8sG99549xqGK7W7vAqoY4lbbc3ph03zvFaw/viewform?usp=publish-editor) (DL: 23:59, Oct.7)
 
 
-- **LAB3 : OAI v2.4.0 Build (gNB + nrUE + CN5G with RFsimulator)**
+- **LAB3 : Deploying a 5G Standalone Network Using OpenAirInterface**
     - Goal:
-In this lab, you will build OAI v2.4.0 (gNB and nrUE), run the OAI 5G Core with Docker, and verify end-to-end connectivity over the RFsimulator.
+In this lab, you will deploy your own OAI 5G SA network (gNB, nrUE and CN5G over RFsimulator), verify end-to-end connectivity, measure RTT under different packet sizes, and diagnose a controlled UE registration failure.
+    - pre-lab: [**OAI v2.4.0 build and environment check**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab3_Assignment/lab3_requirements_tasks.md)
     - delivery: [**file link for lab 3 assignment here**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab3_Assignment/lab3_tasks.md)
+    -  [ ] Peer review : [Vote the Top3](https://forms.gle/Mvza68DFBzPcZXfW6)
