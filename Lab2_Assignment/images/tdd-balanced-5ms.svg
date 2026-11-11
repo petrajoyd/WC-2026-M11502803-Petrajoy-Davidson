@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="350" viewBox="0 0 1100 350" role="img" aria-labelledby="title desc">
+  <title id="title">Balanced TDD allocation over 5 milliseconds</title>
+  <desc id="desc">At 30 kilohertz, the balanced 2.5 millisecond pattern repeats twice. Each period has two full downlink slots, one mixed slot with six downlink, four flexible, and four uplink symbols, and two full uplink slots.</desc>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; fill: #172033; }
+    .title { font-size: 22px; font-weight: 700; }
+    .subtitle { font-size: 14px; fill: #455268; }
+    .label { font-size: 13px; }
+    .slot { font-size: 12px; fill: #455268; }
+    .strong { font-weight: 700; }
+    .light { fill: #fff; font-weight: 700; }
+  </style>
+  <rect width="1100" height="350" rx="12" fill="#f8fafc"/>
+  <text x="60" y="34" class="title">Balanced · 0–5 ms</text>
+  <text x="60" y="57" class="subtitle">30 kHz reference SCS · 0.5 ms per slot · 2.5 ms pattern repeats twice</text>
+
+  <text x="100" y="82" class="label strong">Pattern start · 0 ms</text>
+  <text x="550" y="82" class="label strong" text-anchor="middle">Pattern boundary · 2.5 ms</text>
+  <text x="1000" y="82" class="label strong" text-anchor="end">Pattern repeats · 5 ms</text>
+  <line x1="100" y1="88" x2="1000" y2="88" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="550" y1="88" x2="550" y2="207" stroke="#7c3aed" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <g stroke="#fff" stroke-width="2">
+    <rect x="100" y="96" width="90" height="42" rx="4" fill="#147d70"/>
+    <rect x="190" y="96" width="90" height="42" rx="4" fill="#147d70"/>
+    <rect x="280" y="96" width="38.57" height="42" rx="4" fill="#147d70"/>
+    <rect x="318.57" y="96" width="25.72" height="42" fill="#f2bf4b"/>
+    <rect x="344.29" y="96" width="25.71" height="42" rx="4" fill="#2666a5"/>
+    <rect x="370" y="96" width="90" height="42" rx="4" fill="#2666a5"/>
+    <rect x="460" y="96" width="90" height="42" rx="4" fill="#2666a5"/>
+    <rect x="550" y="96" width="90" height="42" rx="4" fill="#147d70"/>
+    <rect x="640" y="96" width="90" height="42" rx="4" fill="#147d70"/>
+    <rect x="730" y="96" width="38.57" height="42" rx="4" fill="#147d70"/>
+    <rect x="768.57" y="96" width="25.72" height="42" fill="#f2bf4b"/>
+    <rect x="794.29" y="96" width="25.71" height="42" rx="4" fill="#2666a5"/>
+    <rect x="820" y="96" width="90" height="42" rx="4" fill="#2666a5"/>
+    <rect x="910" y="96" width="90" height="42" rx="4" fill="#2666a5"/>
+  </g>
+  <g class="light" font-size="16" text-anchor="middle">
+    <text x="145" y="123">D</text><text x="235" y="123">D</text>
+    <text x="415" y="123">U</text><text x="505" y="123">U</text>
+    <text x="595" y="123">D</text><text x="685" y="123">D</text>
+    <text x="865" y="123">U</text><text x="955" y="123">U</text>
+  </g>
+
+  <g class="slot" text-anchor="middle">
+    <text x="145" y="158">slot 0</text><text x="235" y="158">slot 1</text>
+    <text x="325" y="158">slot 2</text><text x="415" y="158">slot 3</text>
+    <text x="505" y="158">slot 4</text><text x="595" y="158">slot 0</text>
+    <text x="685" y="158">slot 1</text><text x="775" y="158">slot 2</text>
+    <text x="865" y="158">slot 3</text><text x="955" y="158">slot 4</text>
+  </g>
+  <line x1="100" y1="176" x2="1000" y2="176" stroke="#94a3b8"/>
+  <g stroke="#64748b" stroke-width="1">
+    <path d="M100 171v10 M190 171v10 M280 171v10 M370 171v10 M460 171v10 M550 171v10 M640 171v10 M730 171v10 M820 171v10 M910 171v10 M1000 171v10"/>
+  </g>
+  <g class="label" text-anchor="middle">
+    <text x="100" y="201">0 ms</text><text x="190" y="201">0.5</text>
+    <text x="280" y="201">1.0</text><text x="370" y="201">1.5</text>
+    <text x="460" y="201">2.0</text><text x="550" y="201">2.5</text>
+    <text x="640" y="201">3.0</text><text x="730" y="201">3.5</text>
+    <text x="820" y="201">4.0</text><text x="910" y="201">4.5</text>
+    <text x="1000" y="201">5.0 ms</text>
+  </g>
+
+  <text x="60" y="232" class="label strong">Expanded mixed slot · slot 2 in each period · 14 symbols</text>
+  <g class="label strong" text-anchor="middle">
+    <rect x="60" y="241" width="38" height="38" rx="3" fill="#147d70"/><text x="79" y="265" class="light">D</text>
+    <rect x="100" y="241" width="38" height="38" rx="3" fill="#147d70"/><text x="119" y="265" class="light">D</text>
+    <rect x="140" y="241" width="38" height="38" rx="3" fill="#147d70"/><text x="159" y="265" class="light">D</text>
+    <rect x="180" y="241" width="38" height="38" rx="3" fill="#147d70"/><text x="199" y="265" class="light">D</text>
+    <rect x="220" y="241" width="38" height="38" rx="3" fill="#147d70"/><text x="239" y="265" class="light">D</text>
+    <rect x="260" y="241" width="38" height="38" rx="3" fill="#147d70"/><text x="279" y="265" class="light">D</text>
+    <rect x="300" y="241" width="38" height="38" rx="3" fill="#f2bf4b"/><text x="319" y="265">F</text>
+    <rect x="340" y="241" width="38" height="38" rx="3" fill="#f2bf4b"/><text x="359" y="265">F</text>
+    <rect x="380" y="241" width="38" height="38" rx="3" fill="#f2bf4b"/><text x="399" y="265">F</text>
+    <rect x="420" y="241" width="38" height="38" rx="3" fill="#f2bf4b"/><text x="439" y="265">F</text>
+    <rect x="460" y="241" width="38" height="38" rx="3" fill="#2666a5"/><text x="479" y="265" class="light">U</text>
+    <rect x="500" y="241" width="38" height="38" rx="3" fill="#2666a5"/><text x="519" y="265" class="light">U</text>
+    <rect x="540" y="241" width="38" height="38" rx="3" fill="#2666a5"/><text x="559" y="265" class="light">U</text>
+    <rect x="580" y="241" width="38" height="38" rx="3" fill="#2666a5"/><text x="599" y="265" class="light">U</text>
+  </g>
+  <g class="label" text-anchor="middle">
+    <text x="79" y="299">0</text><text x="119" y="299">1</text><text x="159" y="299">2</text><text x="199" y="299">3</text>
+    <text x="239" y="299">4</text><text x="279" y="299">5</text><text x="319" y="299">6</text><text x="359" y="299">7</text>
+    <text x="399" y="299">8</text><text x="439" y="299">9</text><text x="479" y="299">10</text><text x="519" y="299">11</text>
+    <text x="559" y="299">12</text><text x="599" y="299">13</text>
+  </g>
+
+  <g class="label strong">
+    <rect x="700" y="245" width="18" height="18" rx="3" fill="#147d70"/><text x="726" y="259">D · Downlink</text>
+    <rect x="700" y="270" width="18" height="18" rx="3" fill="#f2bf4b"/><text x="726" y="284">F · Flexible</text>
+    <rect x="850" y="245" width="18" height="18" rx="3" fill="#2666a5"/><text x="876" y="259">U · Uplink</text>
+  </g>
+</svg>
