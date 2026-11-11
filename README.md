@@ -26,3 +26,9 @@ In this lab, you will use Wireshark to analyze how a UE establishes an RRC conne
 In this lab,you will compare three 5-second UDP iperf3 tests. You will learn how TDD slot allocation can affect downlink and uplink performance.
     - delivery: [**file link for lab 2 assignment here**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab2_Assignment/lab2_tasks.md)
     -  [ ] Peer review : [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLScz-Kt_9ArkXOl8sG99549xqGK7W7vAqoY4lbbc3ph03zvFaw/viewform?usp=publish-editor) (DL: 23:59, Oct.7)
+
+
+- **LAB3 : OAI v2.4.0 Build (gNB + nrUE + CN5G with RFsimulator)**
+    - Goal:
+In this lab, you will build OAI v2.4.0 (gNB and nrUE), run the OAI 5G Core with Docker, and verify end-to-end connectivity over the RFsimulator.
+    - delivery: [**file link for lab 3 assignment here**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab3_Assignment/lab3_tasks.md)
