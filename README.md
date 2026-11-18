@@ -34,3 +34,10 @@ In this lab, you will deploy your own OAI 5G SA network (gNB, nrUE and CN5G over
     - pre-lab: [**OAI v2.4.0 build and environment check**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab3_Assignment/lab3_requirements_tasks.md)
     - delivery: [**file link for lab 3 assignment here**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab3_Assignment/lab3_tasks.md)
     -  [ ] Peer review : [Vote the Top3](https://forms.gle/Mvza68DFBzPcZXfW6)
+
+
+- **LAB4 : Deploying a 5G CU/DU Split Network with OAI**
+    - Goal:
+In this lab, you will replace the monolithic gNB from Lab 3 with a split gNB-CU and gNB-DU, capture F1-C (F1AP over SCTP) and F1-U (GTP-U over UDP) in one PCAP, trace UE RRC signaling, verify end-to-end Ping, and explain how F1-U differs from N3.
+    - delivery: [**file link for lab 4 assignment here**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab4_Assignment/lab4_tasks.md)
+    - PCAP: [**lab4-f1-complete.pcap**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab4_Assignment/lab4-f1-complete.pcap)
