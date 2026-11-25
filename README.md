@@ -41,3 +41,11 @@ In this lab, you will deploy your own OAI 5G SA network (gNB, nrUE and CN5G over
 In this lab, you will replace the monolithic gNB from Lab 3 with a split gNB-CU and gNB-DU, capture F1-C (F1AP over SCTP) and F1-U (GTP-U over UDP) in one PCAP, trace UE RRC signaling, verify end-to-end Ping, and explain how F1-U differs from N3.
     - delivery: [**file link for lab 4 assignment here**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab4_Assignment/lab4_tasks.md)
     - PCAP: [**lab4-f1-complete.pcap**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab4_Assignment/lab4-f1-complete.pcap)
+
+
+- **LAB5 : From Initial Access to RRC Connection Setup**
+    - Goal:
+In this lab, you will use the supplied UE/gNB logs and a Wireshark MAC-NR trace to reconstruct how a UE finds a cell, reads MIB/SIB1, completes four-step Random Access (Msg1–Msg4), and reaches RRC_CONNECTED, then draw the Initial Access MSC.
+    - delivery: [**file link for lab 5 assignment here**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab5_Assignment/lab5_tasks.md)
+    - PCAP: [**Lab5.pcap**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab5_Assignment/Lab-Resource/Lab5.pcap)
+    - Logs: [**Lab5-ue.log**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab5_Assignment/Lab-Resource/Lab5-ue.log) · [**Lab5-gnb.log**](https://github.com/petrajoyd/WC-2026-M11502803-Petrajoy-Davidson/blob/main/Lab5_Assignment/Lab-Resource/Lab5-gnb.log)
